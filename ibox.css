@@ -1,0 +1,14 @@
+.v1 {
+  background-color: cyan;
+}
+.front {
+  backface-visibility: hidden;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+}

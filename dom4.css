@@ -1,0 +1,594 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  padding-right: 30px;
+}
+.nav > span {
+  margin-right: 10px;
+}
+.header {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.nav2 a {
+  color: #252525;
+  margin-left: 14px;
+  text-decoration: none;
+  padding-left: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 14px;
+}
+.containerToPhoto {
+  height: 75vh;
+  background: url("https://sun9-2.userapi.com/impf/CIzC5OXEaGKfO4j-4t9q-Pp7WxzBE8mjHSt_UA/u4LfgcnIiBI.jpg?size=1650x800&quality=96&sign=ff3ce71e13d31e2d9f845527352689a9&type=album")
+    center no-repeat;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  background-attachment: fixed;
+}
+.wrapper2 {
+  font-size: 80px;
+  color: #ffffff;
+}
+.wrapper3 {
+  margin-left: 50px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+.wrapper {
+  width: 1200px;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.rectangle {
+  display: flex;
+  justify-content: center;
+}
+.click {
+  margin: 0 auto;
+  padding: 8px 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border-color: #2ba84a;
+  background-color: #2ba84a;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  transition: 0.7s;
+}
+.click:hover {
+  border-color: #3071ff;
+  background-color: #3071ff;
+}
+.containerToIcon {
+  background-color: #333;
+  color: #aaa;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerToIcon2 {
+  padding-right: 60px;
+}
+.burger {
+  width: 30px;
+  height: 30px;
+}
+
+.seti_img {
+  width: 19px;
+  height: 19px;
+  margin-left: 10px;
+  filter: invert(75%);
+}
+.icon_img {
+  width: 18px;
+  height: 18px;
+  filter: invert(75%);
+}
+.logo_img {
+  width: 165px;
+  height: 60px;
+}
+.gridContainer2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.click2 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1.5;
+  background-color: #2ba84a;
+  border-color: #2ba84a;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
+}
+.click2:hover {
+  border-color: #51c56e;
+  background-color: #51c56e;
+  cursor: pointer;
+}
+.title {
+  font-weight: 900;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+.discription {
+  font-size: 20px;
+  margin: 25px;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+}
+h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h6 {
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.containerToInfo {
+  background-color: #f9f9f9;
+}
+.header2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.gridContainer div {
+  height: 25vh;
+}
+.containerToPartner {
+  background-color: #00975f;
+}
+.gridContainer5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 29px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.click5 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1.5;
+  background-color: #eff1f4;
+  border-color: #eff1f4;
+  display: inline-block;
+  text-decoration: none;
+  color: #010101;
+  margin-left: 30px;
+}
+.click5:hover {
+  border-color: #dadbdd;
+  background-color: #dadbdd;
+  cursor: pointer;
+}
+.title5 {
+  font-weight: 900;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.discription5 {
+  font-size: 20px;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  margin: 25px;
+}
+
+.containerToMap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.containerToArticles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxToText {
+  font-weight: 200;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.gridContainer7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  margin-bottom: 80px;
+}
+.gridContainer7 a {
+  text-decoration: none;
+  color: #2ba84a;
+  font-weight: 700;
+}
+.gridContainer7 img {
+  height: 290px;
+  width: 405px;
+}
+.gridContainer7 a:hover {
+  color: #3071ff;
+}
+.footer {
+  background-color: #171717;
+  height: 400px;
+}
+.gridBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 17px;
+  padding-top: 60px;
+}
+.footer a {
+  text-decoration: none;
+  color: #5f5d5d;
+  font-size: 18px;
+}
+.footer span {
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .containerToIcon {
+    background-color: #333;
+    color: #aaa;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header {
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .containerToPhoto {
+    width: 100%;
+    background: url("https://sun9-2.userapi.com/impf/CIzC5OXEaGKfO4j-4t9q-Pp7WxzBE8mjHSt_UA/u4LfgcnIiBI.jpg?size=1650x800&quality=96&sign=ff3ce71e13d31e2d9f845527352689a9&type=album")
+      center no-repeat;
+    background-size: cover;
+    font-family: "Arial", sans-serif;
+    background-attachment: fixed;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .wrapper2 {
+    font-size: 60px;
+    color: #ffffff;
+  }
+  .wrapper3 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+  .gridContainer2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .zavod {
+    display: flex;
+    justify-content: center;
+  }
+  .title {
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .discription {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .click2 {
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.5s;
+    line-height: 1.5;
+    background-color: #2ba84a;
+    border-color: #2ba84a;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+  }
+  .click2:hover {
+    border-color: #51c56e;
+    background-color: #51c56e;
+    cursor: pointer;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+  }
+  .containerToPartner {
+    background-color: #00975f;
+  }
+  .gridContainer5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 29px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .partner {
+    display: flex;
+    justify-content: center;
+  }
+  .karta {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .gridContainer7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    transition: 0.5s;
+    margin-bottom: 80px;
+  }
+  .gridContainer7 a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .footer {
+    background-color: #171717;
+    height: 100%;
+    width: 100%;
+  }
+  .gridBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .containerToIcon {
+    background-color: #333;
+    color: #aaa;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .seti_img {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+  }
+  .nav {
+    display: none;
+  }
+  .logo {
+    width: 80px;
+    height: 60px;
+    margin-right: 50px;
+  }
+  .nav2 a {
+    color: #252525;
+    margin-left: 5px;
+    text-decoration: none;
+    padding-left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    font-size: 12px;
+  }
+  .containerToPhoto {
+    width: 100%;
+    background: url("https://sun9-2.userapi.com/impf/CIzC5OXEaGKfO4j-4t9q-Pp7WxzBE8mjHSt_UA/u4LfgcnIiBI.jpg?size=1650x800&quality=96&sign=ff3ce71e13d31e2d9f845527352689a9&type=album")
+      center no-repeat;
+    background-size: cover;
+    font-family: "Arial", sans-serif;
+    background-attachment: fixed;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .wrapper2 {
+    font-size: 60px;
+    color: #ffffff;
+  }
+  .wrapper3 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+  .gridContainer2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .title {
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .discription {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .click2 {
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.5s;
+    line-height: 1.5;
+    background-color: #2ba84a;
+    border-color: #2ba84a;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+  }
+  .click2:hover {
+    border-color: #51c56e;
+    background-color: #51c56e;
+    cursor: pointer;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    text-align: center;
+  }
+  .containerToPartner {
+    background-color: #00975f;
+  }
+  .gridContainer5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 29px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .partner {
+    display: flex;
+    justify-content: center;
+  }
+  .karta {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .gridContainer7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .gridContainer7 img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .footer {
+    background-color: #171717;
+    width: 100%;
+  }
+  .gridBlock {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+  }
+  .block {
+    display: none;
+  }
+  .block2 {
+    display: none;
+  }
+  .block3 {
+    display: none;
+  }
+  .block4 {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .block4 span {
+    display: none;
+  }
+}
